@@ -1,7 +1,8 @@
-h1 {
+#name {
     color: blueviolet;
     font-family: cursive;
-    text-align: center:
+    text-align: center;
+    width: 200px;
 }
 body {
     background-color: darkgray;
