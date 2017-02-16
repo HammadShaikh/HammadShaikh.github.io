@@ -10,3 +10,7 @@ body {
 .intro {
     text-align: center;
 }
+.bgimg {
+    display: block;
+    margin: 0px auto;
+}
