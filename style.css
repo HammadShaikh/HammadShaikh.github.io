@@ -1,11 +1,12 @@
 #name {
-    color: blueviolet;
+    color: floralwhite;
     font-family: cursive;
     text-align: center;
-    width: 200px;
+    width: 500em;
+    display: block;
 }
 body {
-    background-color: darkgray;
+    background-color: black;
 }
 .intro {
     text-align: center;
