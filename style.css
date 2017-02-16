@@ -1,12 +1,12 @@
 #name {
-    color: floralwhite;
+    color: black;
     font-family: cursive;
     text-align: center;
     width: 500em;
     display: block;
 }
 body {
-    background-color: black;
+    background-color: white;
 }
 .intro {
     text-align: center;
