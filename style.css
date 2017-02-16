@@ -1,6 +1,8 @@
-#name {
+h1 {
     color: blueviolet;
     font-family: cursive;
-    background-color: darkgray;
     text-align: center:
+}
+body {
+    background-color: darkgray;
 }
