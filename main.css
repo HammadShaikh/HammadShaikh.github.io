@@ -16,7 +16,8 @@ body {
     background-color: rgba(0,0,0,0.5);
     color: white;
     padding: 2px 10px 2px 10px;
-    width: 400px;
+    max-width: 500px;
+    width: 70%;
     height: auto;
     margin: auto;
     border-radius: 5px 5px 5px 5px;  //rounded corners
@@ -26,8 +27,10 @@ body {
 }
 
 div.tab {
-    width: 510px;
-    height: 50px;
+    position: relative;
+    max-width: 510px;
+    width: 70%;
+    height: 100%;
     padding: 0;
     margin: 20px auto;
     overflow: hidden;
@@ -38,14 +41,16 @@ div.tab {
 }
 
 div.tab button {
+    position: relative;
     background-color: rgba(0,0,0,0);
     float: left;
     border: none;
     outline: none;
     height: 50px;
-    width: 170px;
+    max-width: 170px;
+    width: 50%;
     cursor: pointer;
-    padding: 10px 40px;
+    padding: 1% 10%;
     transition: 0.3s;
     color: white;
     font-family: serif;
@@ -62,6 +67,7 @@ div.tab button.active {
 }
 
 .tabcontent {
+    position: relative;
     display: none;
     padding: 6px 12px;
     border: 1px solid #ccc;
@@ -70,8 +76,10 @@ div.tab button.active {
     background-color: rgba(0,0,0,0.95);
     color: wheat;
     text-align: center;
+    //max-height: 500px;
     height: 550px;
-    width: 600px;
+    max-width: 600px;
+    width: 75%;
     border: none;
     box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.9);
     animation: fadein 0.1s;
@@ -186,6 +194,10 @@ div.tab button.active {
         -ms-transform: rotate(360deg);/*IE 9 */
         transform: rotate(360deg); /*Firefox 16+, IE 10+, Opera */
     }
+}
+
+@media only screen and (max-width: 780px) {
+    
 }
 /*------loader animation code------*/
 #loader-wrapper .loader-section {
