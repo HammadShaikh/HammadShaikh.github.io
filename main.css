@@ -12,6 +12,14 @@ body {
     margin: 0;
 }
 
+#resume {
+    position: relative;
+    color: white;
+    top: 35%;
+    font-size: 25px;
+    color: #FAFAFA;
+}
+
 .intro {
     background-color: rgba(0,0,0,0.5);
     color: white;
@@ -103,7 +111,6 @@ div.tab button.active {
 }
 
 #current {
-    
     position: relative;
     top: 50px;
 }
