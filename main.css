@@ -1,6 +1,7 @@
 html {
     height: auto;
-    background: url(images/background.jpeg) no-repeat center center fixed;
+    //background: url(images/background.jpeg) no-repeat center center fixed;
+    background-color: #454545;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
